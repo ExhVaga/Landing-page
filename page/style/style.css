@@ -568,10 +568,6 @@ header>img {
     color: white;
 }
 
-/* .footer__container{
-    
-} */
-
 .footer__logo {
     display: flex;
     align-items: center;
@@ -590,13 +586,13 @@ header>img {
     display: flex;
 }
 
-.icon__left {
+.iconLeft {
     margin-right: 30px;
     width: 33px;
     height: 33px;
 }
 
-.footer__right-side {
+.footerRightSide {
     display: flex;
     flex-direction: column;
     font-size: 25px;
@@ -618,16 +614,16 @@ header>img {
     margin-top: -5px;
 } */
 
-.mobile__icon {
+.mobileIcon {
     margin-right: 15px;
     margin-bottom: 20px;
 }
 
-.mail__icon {
+.mailIcon {
     margin-right: 10px;
 }
 
-.footer__copyright {
+.footerCopyright {
     display: flex;
     height: 150px;
     align-items: center;
@@ -1043,7 +1039,7 @@ header>img {
         margin-left: 70px;
     }
 
-    .icon__left {
+    .iconLeft {
         margin-right: 17.3px;
         width: 19.11px;
         height: 19.11px;
@@ -1054,7 +1050,7 @@ header>img {
         height: 90px;
     }
 
-    .footer__right-side {
+    .footerRightSide {
         font-size: 14px;
         height: 100px;
         margin-right: 100px;
@@ -1065,24 +1061,24 @@ header>img {
         align-items: center;
     }
 
-    .mobile__number {
+    .mobileNumber {
         margin-top: -2px;
     }
 
-    .mobile__icon {
+    .mobileIcon {
         margin-right: 5%;
         margin-bottom: 10%;
         width: 15.64px;
         height: 15.64px;
     }
 
-    .mail__icon {
+    .mailIcon {
         margin-right: 10px;
         width: 15.64px;
         height: 10.43px;
     }
 
-    .footer__copyright {
+    .footerCopyright {
         height: 90px;
         font-size: 10px;
         margin-left: 70px;
@@ -1123,11 +1119,13 @@ header>img {
 
     .logo {
         width: 52px;
+        margin-left: 35px;
     }
 
     .first-block__elements-wrapper {
         width: 80%;
         margin-bottom: 8px;
+        margin-left: 35px;
     }
 
     .first-block__element {
@@ -1136,12 +1134,14 @@ header>img {
 
     .first-block__text-wrapper {
         display: block;
+        margin-left: 35px;
     }
 
     .first-block__h > h1{
         width: 290px;
         height: 88px;
         font-size: 36px;
+        line-height: 36px;
     }
 
     .first-block__p {
@@ -1153,6 +1153,7 @@ header>img {
 
     .first-block__img-wrapper {
         justify-content: flex-end;
+        margin-right: 0px;
     }
 
     .first-block__img {
@@ -1184,11 +1185,12 @@ header>img {
     .quote-wrapper {
         justify-content: flex-start;
         height: 190px;
+        margin-left: 35px;
     }
 
     .quote {
         width: 225px;
-        height: 95px;
+        height: 75px;
     }
 
     .quote__p {
@@ -1206,6 +1208,11 @@ header>img {
     .block2__title {
         font-size: 26px;
         height: 60px;
+        margin-left: 35px;
+    }
+
+    .block2-upper{
+        margin-left: 35px;
     }
 
     .block2-upper__paragraph-wrapper {
@@ -1216,12 +1223,13 @@ header>img {
         max-width: 308px;
         font-size: 12px;
         margin-bottom: 24px;
+        line-height: 18px;
     }
 
     .block2-upper__img-wrapper {
         top: 0px;
-        max-width: 170.55px;
-        max-height: 160.29px;
+        max-width: 150px;
+        max-height: 135px;
         right: -65px;
     }
 
@@ -1240,10 +1248,12 @@ header>img {
     .block2-lower__paragraph-wrapper {
         max-width: 250px;
         height: 100px;
+        margin-top: 20px;
     }
 
     .block2-lower {
         height: 250px;
+        margin-left: 35px;
     }
 
     .block2-lower__paragraph {
@@ -1291,13 +1301,18 @@ header>img {
 
     }
 
+    .block3__header{
+        margin-left: 35px;
+    }
+
     .block3__footer {
         margin-top: 30px;
+        margin-left: 35px;
     }
 
     .block3__questions {
         margin-bottom: 80px;
-        margin-top: 90px;
+        margin-top: 20px;
     }
 
     .block3__footer ul {
@@ -1320,10 +1335,11 @@ header>img {
 
     .block4__title {
         display: flex;
-        justify-content: start;
+        justify-content: start  ;
         font-size: 26px;
         line-height: 26px;
         margin-left: 35px;
+        margin-bottom: 0px;
     }
 
 
@@ -1473,7 +1489,7 @@ header>img {
         margin-left: 35px;
     }
 
-    .icon__left {
+    .iconLeft {
         margin: 0 14px 47.6px 0;
         width: 15.38px;
         height: 15.38px;
@@ -1484,7 +1500,7 @@ header>img {
         height: 60px;
     }
 
-    .footer__right-side {
+    .footerRightSide {
         font-size: 12px;
         height: 50px;
     }
@@ -1494,24 +1510,24 @@ header>img {
         align-items: center;
     }
 
-    .mobile__number {
+    .mobileNumber {
         margin-top: -2px;
     }
 
-    .mobile__icon {
+    .mobileIcon {
         margin-right: 3%;
         margin-bottom: 5%;
         width: 12.58px;
         height: 12.58px;
     }
 
-    .mail__icon {
+    .mailIcon {
         margin-right: 10px;
         width: 12.58px;
         height: 8.39px;
     }
 
-    .footer__copyright {
+    .footerCopyright {
         height: 50px;
         font-size: 10px;
         min-width: 102px;
